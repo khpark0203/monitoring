@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: local
+  config:
+    import:
+      - application-infra-rdb.yml
+      - application-infra-kafka.yml
+  output:
+    ansi:
+      enabled: always

@@ -1,0 +1,26 @@
+spring:
+  config:
+    activate:
+      on-profile: local
+  output:
+    ansi:
+      enabled: always
+  jpa:
+    properties:
+      hibernate:
+        show-sql: false
+        format-sql: false
+        use-sql-comments: false
+    defer-datasource-initialization: true
+
+logging:
+  level:
+    root: info
+    com:
+      holic: debug
+    org:
+      hibernate:
+        SQL: debug
+        orm:
+          jdbc:
+            bind: trace
