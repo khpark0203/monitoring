@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class CpuConsumer {
     @KafkaListener(
-        topics = "cpuinfok",
+        topics = "cpuinfo",
         groupId = "monitoring-cpu",
         containerFactory = "cpuMessageConcurrentKafkaListenerContainerFactory"
     )
