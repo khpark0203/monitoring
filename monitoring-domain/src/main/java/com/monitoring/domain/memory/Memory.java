@@ -1,4 +1,4 @@
-package com.monitoring.memory;
+package com.monitoring.domain.memory;
 
 import lombok.Getter;
 import lombok.experimental.Accessors;

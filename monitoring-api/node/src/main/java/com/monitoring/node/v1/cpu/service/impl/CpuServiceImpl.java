@@ -1,10 +1,9 @@
 package com.monitoring.node.v1.cpu.service.impl;
 
-import com.monitoring.kafka.producer.KafkaMessageProducer;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import com.monitoring.cpu.Cpu;
+import com.monitoring.domain.cpu.Cpu;
 import com.monitoring.node.v1.cpu.service.CpuService;
 
 import lombok.Builder;

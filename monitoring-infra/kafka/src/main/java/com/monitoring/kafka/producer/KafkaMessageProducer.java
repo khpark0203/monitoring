@@ -1,19 +1,16 @@
 package com.monitoring.kafka.producer;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Component;
 
-import java.util.Objects;
-
 @Component
+@RequiredArgsConstructor
 public class KafkaMessageProducer {
+
     private final KafkaTemplate<String, Object> kafkaTemplate;
 
-    public KafkaMessageProducer(KafkaTemplate<String, Object> kafkaTemplate) {
-        this.kafkaTemplate = kafkaTemplate;
-    }
-
-    public void send(String topic, Objects message) {
+    public void send(String topic, Object message) {
         kafkaTemplate.send(topic, message);
     }
 }

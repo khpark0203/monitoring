@@ -1,6 +1,6 @@
 package com.monitoring.node.v1.cpu.controller;
 
-import com.monitoring.cpu.Cpu;
+import com.monitoring.domain.cpu.Cpu;
 import com.monitoring.node.v1.cpu.controller.response.CpusResponse;
 import com.monitoring.node.v1.cpu.service.CpuService;
 import lombok.RequiredArgsConstructor;

@@ -1,4 +1,4 @@
-package com.monitoring.cpu;
+package com.monitoring.domain.cpu;
 
 import lombok.Builder;
 import lombok.Getter;

@@ -1,6 +1,6 @@
 package com.monitoring.node.v1.cpu.controller.response;
 
-import com.monitoring.cpu.Cpu;
+import com.monitoring.domain.cpu.Cpu;
 
 public record CpusResponse(
     int cores,

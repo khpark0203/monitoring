@@ -1,6 +1,6 @@
 package com.monitoring.node.v1.cpu.service.impl;
 
-import com.monitoring.cpu.Cpu;
+import com.monitoring.domain.cpu.Cpu;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

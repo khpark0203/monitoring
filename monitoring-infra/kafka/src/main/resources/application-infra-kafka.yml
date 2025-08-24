@@ -4,3 +4,9 @@ spring:
   output:
     ansi:
       enabled: always
+  kafka:
+    consumer:
+      group-id: monitoring
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
