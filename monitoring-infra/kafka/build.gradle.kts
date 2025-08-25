@@ -10,6 +10,8 @@ project(":monitoring-infra:kafka") {
     }
 
     dependencies {
+        implementation(project(":monitoring-domain"))
+
         implementation("org.apache.kafka:kafka-clients:3.6.0")
         implementation("org.springframework.kafka:spring-kafka")
     }
