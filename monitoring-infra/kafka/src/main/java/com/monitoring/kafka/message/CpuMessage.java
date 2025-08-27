@@ -1,6 +1,7 @@
 package com.monitoring.kafka.message;
 
 import com.monitoring.domain.cpu.Cpu;
+import com.monitoring.domain.memory.Memory;
 import lombok.Builder;
 
 @Builder

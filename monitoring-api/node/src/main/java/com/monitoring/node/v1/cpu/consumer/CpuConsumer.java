@@ -20,10 +20,7 @@ public class CpuConsumer {
 
     private final CpuEvent cpuEvent;
 
-    @KafkaListener(
-        topics = "#{T(com.monitoring.kafka.topic.Topic).CPU.topic()}",
-        containerFactory = "cpuMessageFactory"
-    )
+    @KafkaListener(topics = "#{T(com.monitoring.kafka.topic.Topic).CPU.topic()}")
     public void cpu(
         @Header(KafkaHeaders.RECEIVED_KEY) String key,
         KafkaMessage<CpuMessage> message
