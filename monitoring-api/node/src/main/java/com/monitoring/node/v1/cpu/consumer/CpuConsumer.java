@@ -4,7 +4,6 @@ import com.monitoring.domain.cpu.Cpu;
 import com.monitoring.domain.cpu.event.CpuEvent;
 import com.monitoring.kafka.message.CpuMessage;
 import com.monitoring.kafka.message.KafkaMessage;
-import com.monitoring.kafka.topic.Topic;
 import jakarta.annotation.PostConstruct;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

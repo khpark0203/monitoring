@@ -1,6 +1,6 @@
 package com.monitoring.kafka.topic;
 
-public enum Topic implements TopicGettable {
+public enum Topic implements TopicProvider {
     CPU("cpu")
 
     ;

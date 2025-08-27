@@ -1,6 +1,6 @@
 package com.monitoring.kafka.topic;
 
 @FunctionalInterface
-public interface TopicGettable {
+public interface TopicProvider {
     String topic();
 }

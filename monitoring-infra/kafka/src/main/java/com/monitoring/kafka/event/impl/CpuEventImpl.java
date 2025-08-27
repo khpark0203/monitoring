@@ -3,7 +3,6 @@ package com.monitoring.kafka.event.impl;
 import com.monitoring.domain.cpu.Cpu;
 import com.monitoring.domain.cpu.event.CpuEvent;
 import com.monitoring.kafka.message.CpuMessage;
-import com.monitoring.kafka.message.KafkaMessage;
 import com.monitoring.kafka.producer.KafkaMessageProducer;
 import com.monitoring.kafka.topic.Topic;
 import lombok.RequiredArgsConstructor;
